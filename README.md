@@ -1,4 +1,3 @@
-#inclue(~~~)
 檢查是否有裝版本~  沒有就要下載 访问 Git 的官方网站：https://git-scm.com/downloads
 git --version 
 若要確認有無dir /a  看底下有無.git檔案
@@ -16,4 +15,12 @@ git remote -v
 git log
 
 git push origin feature-branch
+
+git pull origin <branch-name>
+
+git commit -m "提交 loaddata.jl 和 readme.txt 文件的更改"
+git checkout -b new-branch 
+
+
+
 
